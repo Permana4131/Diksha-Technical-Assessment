@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Diksha Technical Assessment</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_button">Login</string>
+    <string name="access_user_desc">Access account from user in api : https://fakestoreapi.com</string>
+    <string name="welcome_text">Welcome to Diksha Technical Assessment</string>
+    <string name="main_page_title">Main Page</string>
+    <string name="summary_page_title">Summary Page</string>
+    <string name="cart_page_title">Cart Page</string>
+    <string name="cart_icon">Cart</string>
+    <string name="profile_icon">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="profile_name">Hello, %s</string>
+    <string name="sample_product_title">Sample Product Title</string>
+    <string name="sample_price">$19.99</string>
+    <string name="product_image">Product image</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="delete_item">Delete</string>
+    <string name="dolar_price">$%s</string>
+    <string name="total_price">Total Price</string>
+    <string name="total_dolar_price">Total: $%s</string>
+    <string name="checkout">Checkout</string>
+    <string name="zero">0</string>
+</resources>

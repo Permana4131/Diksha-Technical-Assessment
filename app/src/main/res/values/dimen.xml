@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_body">14sp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+
+    <dimen name="space_0">0dp</dimen>
+    <dimen name="space_xxs">2dp</dimen>
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_xs_sp">4sp</dimen>
+    <dimen name="space_sm">8dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">20dp</dimen>
+    <dimen name="space_xl">24dp</dimen>
+    <dimen name="space_hg">30dp</dimen>
+
+    <dimen name="dimens_34dp">34dp</dimen>
+    <dimen name="dimens_80dp">80dp</dimen>
+    <dimen name="dimens_100dp">100dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+
+    <dimen name="img_wd">150dp</dimen>
+    <dimen name="img_hg">200dp</dimen>
+    <dimen name="img_detail_hg">250dp</dimen>
+
+</resources>

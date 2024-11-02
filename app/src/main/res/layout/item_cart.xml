@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_md"
+    android:background="@drawable/bg_rounded_bottom_sheet"
+    android:padding="@dimen/padding_small">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_product_image"
+        android:layout_width="@dimen/img_wd"
+        android:layout_height="@dimen/img_hg"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/product_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_product_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/sample_product_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_body"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/space_sm"
+        app:layout_constraintStart_toEndOf="@+id/iv_product_image"
+        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
+        app:layout_constraintTop_toTopOf="@+id/iv_product_image" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_product_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_price"
+        android:textColor="@color/teal_700"
+        android:textSize="@dimen/text_size_body"
+        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_title"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_title" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_trash"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/delete_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_product_title" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        app:layout_constraintEnd_toStartOf="@+id/tv_quantity"
+        app:layout_constraintStart_toStartOf="@+id/tv_product_price"
+        app:layout_constraintTop_toBottomOf="@+id/tv_product_price" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_decrease"
+        app:layout_constraintEnd_toStartOf="@+id/btn_increase"
+        app:layout_constraintStart_toEndOf="@+id/btn_decrease"
+        app:layout_constraintTop_toTopOf="@+id/btn_decrease" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_decrease"
+        app:layout_constraintStart_toEndOf="@+id/tv_quantity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
